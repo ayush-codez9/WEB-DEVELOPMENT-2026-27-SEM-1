@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 align="center">HOTEL BOOKING</h1>
+        <hr>
+    </header>
+
+    <h2>Book Your Room</h2>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="number" placeholder="Enter phone number">
+        <br><br>
+
+        <label>Check-in Date:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Check-out Date:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Select Room:</label>
+        <select>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Deluxe Room</option>
+            <option>Luxury Room</option>
+        </select>
+        <br><br>
+
+        <label>Number of Guests:</label>
+        <input type="number" min="1">
+        <br><br>
+
+        <label>Address:</label>
+        <textarea rows="3" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <br>
+
+    <footer>
+        <hr>
+        <p align="center">
+            &copy; 2026 Hotel Booking. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
